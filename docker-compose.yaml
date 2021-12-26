@@ -7,7 +7,7 @@ services:
             - LISTEN_ADDR=0.0.0.0:8080
             - BOLT_PATH=/data/bot.db
             - STORE=bolt
-            - TELEGRAM_ADMIN=<TelegramAdminID> #ваш ID в телеграм
+            - TELEGRAM_ADMIN=<TelegramAdminID> #ID в телеграм
             - TELEGRAM_TOKEN=<TelegramBotToken> # токен бота
             - TEMPLATE_PATHS=/templates/default.tmpl
         volumes:
